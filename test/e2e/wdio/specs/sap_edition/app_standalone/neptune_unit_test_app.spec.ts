@@ -12,6 +12,7 @@ import { percyScreenshot } from "@percy/selenium-webdriver";
 import Panel from "sap/m/Panel";
 import Text from "sap/m/Text";
 
+
 const wdi5 = new _wdi5();
 
 const selectors = {
