@@ -39,8 +39,6 @@ CLASS ZCL_NEPTUNE_DXP_E2E_SAMPLE IMPLEMENTATION.
 
   method get_data.
 
-    data lv_dummy type string. " added unused variable on purpose
-
     case gs_data-value.
       when 'Value A'.
         gs_data-value = 'Value B'.
