@@ -1,0 +1,13 @@
+[
+  {
+    "field_id": "00006",
+    "version": "0001",
+    "bind_object": "DATA",
+    "bind_type": "u",
+    "binding": "GS_DATA",
+    "binding_root_type": "APPL_CLASS",
+    "binding_root_field_id": "00000",
+    "binding_path": "APPL_CLASS|GS_DATA!v",
+    "bind_build_origin": "TREE_SEL"
+  }
+]
