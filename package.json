@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@abaplint/cli": "^2.105.6",
     "@neptune-software/dxp-e2e-toolbox": "^0.0.3",
     "@percy/cli": "^1.27.6",
     "@percy/selenium-webdriver": "^2.0.2",

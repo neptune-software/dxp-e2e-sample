@@ -1,0 +1,41 @@
+{
+    "global": {
+        "files": "/src/**/*.*",
+        "exclude": [
+            "\\.zn\\d\\d\\."
+        ],
+        "skipGeneratedFunctionGroups": true
+    },
+    "dependencies": [
+        {
+            "url": "https://github.com/abaplint/deps",
+            "folder": "/abaplint-deps",
+            "files": "/src/**/*.*"
+        },
+        {
+            "folder": "/deps",
+            "files": "/**/*.*"
+        }
+    ],
+    "syntax": {
+        "version": "v702",
+        "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_)",
+        "globalConstants": [],
+        "globalMacros": []
+    },
+    "rules": {
+        "begin_end_names": true,
+        "check_ddic": true,
+        "check_include": true,
+        "check_syntax": true,
+        "global_class": true,
+        "implement_methods": false,
+        "sicf_consistency": true,
+        "method_implemented_twice": true,
+        "parser_error": true,
+        "superclass_final": true,
+        "unknown_types": true,
+        "xml_consistency": true,
+        "unused_variables": true
+    }
+}
