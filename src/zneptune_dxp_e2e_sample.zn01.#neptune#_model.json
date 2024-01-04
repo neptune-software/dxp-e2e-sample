@@ -1,0 +1,10 @@
+[
+  {
+    "field_id": "00011",
+    "version": "0001",
+    "model_id": "00006",
+    "model": "SimpleForm",
+    "send": "X",
+    "receive": "X"
+  }
+]

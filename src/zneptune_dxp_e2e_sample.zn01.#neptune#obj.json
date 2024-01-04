@@ -1,0 +1,116 @@
+[
+  {
+    "field_id": "00001",
+    "field_name": "HTML5 Document",
+    "field_type": "HTML5 DOC",
+    "field_pos": "00001",
+    "field_parent": "00000",
+    "is_container": "X",
+    "calculate_date": 0,
+    "is_view": "X",
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00002",
+    "field_name": "Resources",
+    "field_type": "RESOURCES",
+    "field_pos": "00009",
+    "field_parent": "00000",
+    "is_container": "X",
+    "calculate_date": 0,
+    "is_view": "X",
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00003",
+    "field_name": "App",
+    "field_type": "UM5_APP",
+    "field_pos": "00002",
+    "field_parent": "00001",
+    "is_container": "X",
+    "calculate_date": 0,
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00004",
+    "field_name": "Page",
+    "field_type": "UM5_PAGE",
+    "field_pos": "00003",
+    "field_parent": "00003",
+    "is_container": "X",
+    "calculate_date": 0,
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00005",
+    "field_name": "Panel",
+    "field_type": "UM5_PANEL",
+    "field_pos": "00004",
+    "field_parent": "00004",
+    "is_container": "X",
+    "calculate_date": 0,
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00006",
+    "field_name": "SimpleForm",
+    "field_type": "UM5_SFORM",
+    "field_pos": "00005",
+    "field_parent": "00005",
+    "is_container": "X",
+    "calculate_date": 0,
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00007",
+    "field_name": "lblSimpleFormVALUE",
+    "field_type": "UM5_LABEL",
+    "field_pos": "00006",
+    "field_parent": "00006",
+    "is_container": "X",
+    "calculate_date": 0,
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00008",
+    "field_name": "txtSimpleFormVALUE",
+    "field_type": "UM5_TEXT",
+    "field_pos": "00007",
+    "field_parent": "00006",
+    "is_container": "X",
+    "calculate_date": 0,
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00009",
+    "field_name": "ButtonToggleValue",
+    "field_type": "UM5_BUTTON",
+    "field_pos": "00008",
+    "field_parent": "00005",
+    "is_container": "X",
+    "calculate_date": 0,
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00010",
+    "field_name": "ajax",
+    "field_type": "UM5_RESFOL",
+    "field_pos": "00010",
+    "field_parent": "00002",
+    "is_container": "X",
+    "calculate_date": 0,
+    "flag5": "X",
+    "extend_id": "00000"
+  },
+  {
+    "field_id": "00011",
+    "field_name": "GET_DATA",
+    "field_type": "UM5_AJAX",
+    "field_pos": "00011",
+    "field_parent": "00010",
+    "event_id": "GET_DATA",
+    "calculate_date": 0,
+    "flag5": "X",
+    "extend_id": "00000"
+  }
+]

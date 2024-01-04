@@ -1,0 +1,46 @@
+[
+  {
+    "field_id": "00004",
+    "version": "0001",
+    "attribute": "title",
+    "grouping": "Properties",
+    "value": "Neptune E2E Example App"
+  },
+  {
+    "field_id": "00005",
+    "version": "0001",
+    "attribute": "headerText",
+    "grouping": "Properties",
+    "value": "Simple Value toggling"
+  },
+  {
+    "field_id": "00007",
+    "version": "0001",
+    "attribute": "text",
+    "grouping": "Properties",
+    "value": "Value"
+  },
+  {
+    "field_id": "00008",
+    "version": "0001",
+    "attribute": "text",
+    "grouping": "Properties",
+    "value": "{/VALUE}",
+    "binding_path": "APPL_CLASS|GS_DATA!v|VALUE!g",
+    "bind_build_origin": "TREE_SEL"
+  },
+  {
+    "field_id": "00009",
+    "version": "0001",
+    "attribute": "press",
+    "grouping": "Events",
+    "value": "getOnlineGET_DATA();"
+  },
+  {
+    "field_id": "00009",
+    "version": "0001",
+    "attribute": "text",
+    "grouping": "Properties",
+    "value": "Toggle Value"
+  }
+]

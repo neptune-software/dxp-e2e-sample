@@ -9,7 +9,7 @@ on:
   push:
     paths:
       - 'test/**'
-      - 'wdio.conf.ts'
+      - 'src/**' # also run the test when changes are done from abapgit not only for the tests themselves!
   workflow_dispatch:
     inputs:
       bs_os:

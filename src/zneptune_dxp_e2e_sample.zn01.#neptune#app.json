@@ -1,0 +1,11 @@
+[
+  {
+    "app_type": "A",
+    "clsname": "ZCL_NEPTUNE_DXP_E2E_SAMPLE",
+    "descr": "Sample Application for the Neptune E2E",
+    "descr_mc": "SAMPLE APPLICATION FOR THE NEPTUNE E2E",
+    "library": "5",
+    "ui5_m": "X",
+    "ts_compile_target": "es2016"
+  }
+]
